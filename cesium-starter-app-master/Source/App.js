@@ -34,3 +34,4 @@ Polygon.add({
 	material : Cesium.Color.GREEN
     }
 });
+viewer.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(135.502101, 34.693684, 15000.0)});
