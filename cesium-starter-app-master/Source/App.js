@@ -22,3 +22,19 @@ line1.add({
     }
 });
 
+var Polygon = viewer.entities;
+
+Polygon.add({
+    name : 'Polygon',
+    polygon : {
+        hierarchy : Cesium.Cartesian3.fromDegreesArray([135.074695, 34.280084,
+                                                        130.512834, 30.345116,
+                                                        142.192407, 27.094318]),
+        extrudedHeight: 500000.0,
+	material : Cesium.Color.GREEN
+    }
+});
+
+viewer.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(135.502101, 34.693684, 15000.0)});
+
+viewer.dataSources.add(Cesium.KmlDataSource.load('http://seabook0303.github.io/20151122osaka/cesium-starter-app-master/foss4gosakakml/foss4gosaka.kml'));

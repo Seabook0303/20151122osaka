@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>foss4gosaka.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff4d4d4d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff9228</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff4d4d4d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff9228</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>foss4gosaka</name>
+		<open>1</open>
+		<Folder id="1.3">
+			<name>中央大通</name>
+			<Style id="dir_route">
+				<LineStyle>
+					<color>7fa00000</color>
+					<colorMode>normal</colorMode>
+					<width>6</width>
+				</LineStyle>
+			</Style>
+			<Placemark id="1.3.2.2.2">
+				<name>北西に進む</name>
+				<description>北西に進む</description>
+				<LookAt>
+					<longitude>135.5276424</longitude>
+					<latitude>34.6903941</latitude>
+					<altitude>0</altitude>
+					<heading>-55.095665</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7903941</north>
+						<south>34.5903941</south>
+						<east>135.6276424</east>
+						<west>135.4276424</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5276424,34.6903941,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.2.3">
+				<name>城見１南（交差点） を右折する</name>
+				<description>城見１南（交差点） を右折する</description>
+				<LookAt>
+					<longitude>135.5282446</longitude>
+					<latitude>34.691431</latitude>
+					<altitude>0</altitude>
+					<heading>55.7443</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.791431</north>
+						<south>34.591431</south>
+						<east>135.6282446</east>
+						<west>135.4282446</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5282446,34.691431,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.2.4">
+				<name>弁天橋北詰（交差点） を右折して 玉造筋 に入る</name>
+				<description>弁天橋北詰（交差点） を右折して 玉造筋 に入る</description>
+				<LookAt>
+					<longitude>135.5345736</longitude>
+					<latitude>34.690172</latitude>
+					<altitude>0</altitude>
+					<heading>96.71625</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.790172</north>
+						<south>34.590172</south>
+						<east>135.6345736</east>
+						<west>135.4345736</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5345736,34.690172,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.3.2">
+				<name>森ノ宮駅前（交差点） を右折して 中央大通 に入る</name>
+				<description>森ノ宮駅前（交差点） を右折して 中央大通 に入る</description>
+				<LookAt>
+					<longitude>135.5336194</longitude>
+					<latitude>34.6815617</latitude>
+					<altitude>0</altitude>
+					<heading>-175.99832</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7815617</north>
+						<south>34.5815617</south>
+						<east>135.6336194</east>
+						<west>135.4336194</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5336194,34.6815617,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.3.3">
+				<name>斜め左方向に進む</name>
+				<description>斜め左方向に進む</description>
+				<LookAt>
+					<longitude>135.5111896</longitude>
+					<latitude>34.6816169</latitude>
+					<altitude>0</altitude>
+					<heading>-90</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7816169</north>
+						<south>34.5816169</south>
+						<east>135.6111896</east>
+						<west>135.4111896</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5111896,34.6816169,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.3.4">
+				<name>久太郎町３（交差点） を左折して 御堂筋/国道25号線 に入る</name>
+				<description>久太郎町３（交差点） を左折して 御堂筋/国道25号線 に入る</description>
+				<LookAt>
+					<longitude>135.5007131</longitude>
+					<latitude>34.6816538</latitude>
+					<altitude>0</altitude>
+					<heading>-89.205536</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7816538</north>
+						<south>34.5816538</south>
+						<east>135.6007131</east>
+						<west>135.4007131</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5007131,34.6816538,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.3.5">
+				<name>難波（交差点） を左折して 千日前通/府道702号線 に入る</name>
+				<description>難波（交差点） を左折して 千日前通/府道702号線 に入る</description>
+				<LookAt>
+					<longitude>135.5003385</longitude>
+					<latitude>34.6672756</latitude>
+					<altitude>0</altitude>
+					<heading>180</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7672756</north>
+						<south>34.5672756</south>
+						<east>135.6003385</east>
+						<west>135.4003385</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5003385,34.6672756,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.4.2">
+				<name>左折する</name>
+				<description>左折する</description>
+				<LookAt>
+					<longitude>135.5013726</longitude>
+					<latitude>34.6672295</latitude>
+					<altitude>0</altitude>
+					<heading>92.62056</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7672295</north>
+						<south>34.5672295</south>
+						<east>135.6013726</east>
+						<west>135.4013726</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5013726,34.6672295,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.4.3">
+				<name>右折する</name>
+				<description>右折する</description>
+				<LookAt>
+					<longitude>135.5013045</longitude>
+					<latitude>34.6687107</latitude>
+					<altitude>0</altitude>
+					<heading>-0.9671478</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>34.7687107</north>
+						<south>34.5687107</south>
+						<east>135.6013045</east>
+						<west>135.4013045</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>135.5013045,34.6687107,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2">
+				<name>Route</name>
+				<styleUrl>#dir_route</styleUrl>
+				<LineString>
+					<coordinates>
+						135.5276424,34.6903941,0 135.5276424,34.6903941,0 135.5275969,34.6904588,0 135.5275288,34.690468,0 135.5274152,34.6905144,0 135.5275288,34.6906719,0 135.527881,34.6912274,0 135.5282446,34.691431,0 135.5283582,34.691329,0 135.5284379,34.6912921,0 135.5284946,34.6912921,0 135.5288582,34.6913199,0 135.5294151,34.6913385,0 135.5296081,34.691329,0 135.5298014,34.6912921,0 135.5300967,34.6912088,0 135.5314035,34.6907552,0 135.5321079,34.6905144,0 135.5324263,34.6904219,0 135.5327215,34.6903664,0 135.5330057,34.6903292,0 135.5334262,34.6902831,0 135.5345736,34.690172,0 135.5344034,34.6894776,0 135.534335,34.6891999,0 135.5342328,34.6888293,0 135.5341987,34.6885702,0 135.5340512,34.6867926,0 135.5338352,34.6840984,0 135.5336194,34.6815617,0 135.5336194,34.6813487,0 135.5330739,34.6813578,0 135.5325628,34.6813578,0 135.5315173,34.6813673,0 135.5296311,34.6814042,0 135.5284834,34.6813855,0 135.5280857,34.6813764,0 135.5279382,34.6813672,0 135.5278132,34.6813577,0 135.5270291,34.6813394,0 135.525177,34.6812744,0 135.5247109,34.681256,0 135.5223931,34.6811727,0 135.5212568,34.6811449,0 135.5208818,34.6811449,0 135.5202569,34.681154,0 135.5197683,34.6811818,0 135.5194275,34.6812004,0 135.5189842,34.6812004,0 135.5186092,34.6812096,0 135.5166891,34.6812837,0 135.5162686,34.6813206,0 135.5152687,34.6814687,0 135.5146779,34.6815336,0 135.5142574,34.681552,0 135.5136211,34.6815797,0 135.5134166,34.6815892,0 135.5130189,34.6816075,0 135.5126895,34.6816169,0 135.5118371,34.6816169,0 135.5111896,34.6816169,0 135.5110871,34.6815892,0 135.5109735,34.6815797,0 135.5106669,34.6815242,0 135.5103258,34.6815336,0 135.5097464,34.6815428,0 135.5094056,34.6815519,0 135.508576,34.6815614,0 135.5084285,34.6815705,0 135.5074511,34.6815797,0 135.5064626,34.6815797,0 135.505474,34.6815983,0 135.5044969,34.6816169,0 135.5035425,34.681626,0 135.5025198,34.6816352,0 135.5015199,34.6816446,0 135.5007131,34.6816538,0 135.5005656,34.6816538,0 135.5005428,34.6808761,0 135.5005428,34.6807927,0 135.5005201,34.6800151,0 135.5004859,34.679191,0 135.5004518,34.6784319,0 135.5004065,34.67758,0 135.5003724,34.6767468,0 135.500361,34.6759413,0 135.5003383,34.6752192,0 135.5003383,34.6749692,0 135.5003383,34.6747101,0 135.5003383,34.6743026,0 135.5003383,34.6735249,0 135.5003384,34.6727381,0 135.5003498,34.6719326,0 135.5003498,34.6711085,0 135.5003384,34.6703586,0 135.5003385,34.6699514,0 135.5003385,34.6699237,0 135.5003385,34.6698126,0 135.5003499,34.6694051,0 135.5003499,34.6687107,0 135.5003385,34.6681366,0 135.5003385,34.6678311,0 135.5003385,34.6674145,0 135.5003385,34.6672756,0 135.5006341,34.6672573,0 135.5013726,34.6672295,0 135.5013612,34.6674331,0 135.5013384,34.6678589,0 135.5013159,34.6681553,0 135.5013045,34.6687107,0 135.5022361,34.6687107,0 135.5022494,34.6685025,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>大阪城天守閣</name>
+			<description><![CDATA[<a href="http://www.osakacastle.net/">http://www.osakacastle.net/</a>]]></description>
+			<LookAt>
+				<longitude>135.5232126992168</longitude>
+				<latitude>34.68395267164987</latitude>
+				<altitude>0</altitude>
+				<heading>1.624295052855599</heading>
+				<tilt>29.13231698993274</tilt>
+				<range>2861.029218764612</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>135.5258296307173,34.68720202872098,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>無題 - ポリゴン</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							135.5241683039012,34.69087804445368,0 135.5239410931755,34.69020453800545,0 135.5232554344595,34.69037640536991,0 135.5227443800131,34.68930385932821,0 135.5216354630153,34.68904605548328,0 135.5203820096726,34.68824948973437,0 135.5211492790413,34.68601172808435,0 135.5217581673274,34.6859951275331,0 135.5224588078005,34.68347387905077,0 135.5264122159667,34.68293269503204,0 135.5286936263777,34.68288791946468,0 135.5292702002717,34.68432064189814,0 135.5310603773376,34.68438309483507,0 135.5309412179097,34.68606086345284,0 135.5295510852016,34.68830254855354,0 135.5278449339353,34.690090230151,0 135.525427769555,34.69115143004107,0 135.5241683039012,34.69087804445368,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ひっかけ橋</name>
+			<description><![CDATA[<img src="http://seabook0303.github.io/20151122osaka/glico.jpg"/>
+
+グリコの看板。]]></description>
+			<LookAt>
+				<longitude>135.5013690736019</longitude>
+				<latitude>34.66925531321426</latitude>
+				<altitude>0</altitude>
+				<heading>1.611335753687736</heading>
+				<tilt>45.00004800621265</tilt>
+				<range>103.8947042564781</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>135.5012950705487,34.66905756853932,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
