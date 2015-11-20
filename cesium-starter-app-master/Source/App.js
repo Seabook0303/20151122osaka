@@ -21,3 +21,16 @@ line1.add({
         material : Cesium.Color.RED
     }
 });
+
+var Polygon = viewer.entities;
+
+Polygon.add({
+    name : 'Polygon',
+    polygon : {
+        hierarchy : Cesium.Cartesian3.fromDegreesArray([135.074695, 34.280084,
+                                                        130.512834, 30.345116,
+                                                        142.192407, 27.094318]),
+        extrudedHeight: 500000.0,
+	material : Cesium.Color.GREEN
+    }
+});
