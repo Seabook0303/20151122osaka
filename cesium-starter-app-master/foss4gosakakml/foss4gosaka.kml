@@ -2,6 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>foss4gosaka.kml</name>
+	<open>1</open>
+	<Style id="dir_route">
+		<LineStyle>
+			<color>7fa00000</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -21,7 +28,17 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -29,23 +46,7 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>ff4d4d4d</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>99ff9228</color>
-		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -69,6 +70,40 @@
 		<PolyStyle>
 			<color>99ff9228</color>
 		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff4d4d4d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>99ff9228</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 	</Style>
 	<Folder>
 		<name>foss4gosaka</name>
@@ -390,24 +425,6 @@
 			</Placemark>
 		</Folder>
 		<Placemark>
-			<name>大阪城天守閣</name>
-			<description><![CDATA[<a href="http://www.osakacastle.net/">http://www.osakacastle.net/</a>]]></description>
-			<LookAt>
-				<longitude>135.5232126992168</longitude>
-				<latitude>34.68395267164987</latitude>
-				<altitude>0</altitude>
-				<heading>1.624295052855599</heading>
-				<tilt>29.13231698993274</tilt>
-				<range>2861.029218764612</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>135.5258296307173,34.68720202872098,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>無題 - ポリゴン</name>
 			<styleUrl>#msn_ylw-pushpin</styleUrl>
 			<Polygon>
@@ -420,6 +437,25 @@
 					</LinearRing>
 				</outerBoundaryIs>
 			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>大阪城天守閣</name>
+			<description><![CDATA[<a href="http://www.osakacastle.net/">http://www.osakacastle.net/</a>]]></description>
+			<LookAt>
+				<longitude>135.5232126992168</longitude>
+				<latitude>34.68395267164987</latitude>
+				<altitude>0</altitude>
+				<heading>1.624295052855599</heading>
+				<tilt>29.13231698993274</tilt>
+				<range>2861.029218764612</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>135.5258296307173,34.68720202872098,1</coordinates>
+			</Point>
 		</Placemark>
 		<Placemark>
 			<name>ひっかけ橋</name>
