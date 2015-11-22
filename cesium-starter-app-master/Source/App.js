@@ -37,3 +37,6 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
 	});
 
 	viewer.camera.flyTo({ destination : Cesium.Cartesian3.fromDegrees(135.502101, 34.693684, 15000.0)});
+	
+	viewer.dataSources.add(Cesium.KmlDataSource.load('http://seabook0303.github.io/
+	20151122osaka/cesium-starter-app-master/foss4gosakakml/foss4gosaka.kml'));
